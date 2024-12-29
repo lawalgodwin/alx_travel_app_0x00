@@ -1,7 +1,6 @@
 from django.db import models
 import uuid
 from django.contrib.auth import get_user_model
-from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
 User = get_user_model()
